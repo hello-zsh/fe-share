@@ -1,0 +1,33 @@
+### get 方法
+GET http://localhost:3000/students
+
+### post 方法
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+  "name": "李四",
+  "age": 123
+}
+
+### delete 方法
+DELETE http://localhost:3000/students/2
+
+### patch 方法
+PATCH http://localhost:3000/students/1
+Content-Type: application/json
+
+{
+  "name": "zsh",
+  "age": 21
+}
+
+### put 方法
+PUT http://localhost:3000/students/1
+Content-Type: application/json
+
+{
+  "name": "zsh",
+  "age": 21
+}
+
