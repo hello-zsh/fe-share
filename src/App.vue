@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     测试自动化部署
+    再次测试
     <router-view/>
   </div>
 </template>
